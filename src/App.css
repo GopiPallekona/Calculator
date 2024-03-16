@@ -1,0 +1,53 @@
+.container-body{
+  height: 80vh;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  
+  justify-content: center;
+  align-items: center;
+  background-color:#111 ;
+}
+.inputbox{
+  height: 190px;
+  width: 100%;
+  border: none;
+  font-size: 50px;
+  text-align: end;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 200;
+  background-color:Lavender ;
+}
+h1{
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+.display{
+  height: 10%;
+  width: 90%;
+  border: 1px solid black;
+  margin: auto;
+}
+button{
+  border-radius: 50%;
+  height: 60px;
+  background-color:Silver ;
+  border: none;
+  margin-right: 6px;
+  cursor: pointer;
+}
+.buttons{
+  height: 80%;
+  margin-top: 20px;
+  
+  width: 90%;
+  margin-bottom: 15px;
+  
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  
+  font-size: 60px;
+  
+}
